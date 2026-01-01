@@ -1,0 +1,41 @@
+h1{color: lightblue};
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+}
+
+.container {
+  width: 300px;
+  margin: 100px auto;
+  background: blanchedalmond;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+input {
+  width: 70%;
+  border-radius:8px ;
+  padding: 8px;
+}
+
+button {
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 0 20px;
+}
+
+li {
+  list-style: none;
+  padding: 8px;
+  margin-top: 5px;
+  background: #eee;
+  display: flex;
+  justify-content: space-between;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
